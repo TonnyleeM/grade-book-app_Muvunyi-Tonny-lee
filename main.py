@@ -5,7 +5,7 @@ import re
 import time
 import os
 
-BLUE = "\033[38;5;33m"
+GREEN = "\033[38;5;2m"
 RESET = "\033[0m"
 
 def clear_screen():
@@ -23,11 +23,11 @@ def print_fancy_menu():
     ]
     
     print("\n" + "=" * 40)
-    print(f"{BLUE}        MENU OPTIONS{RESET}")
+    print(f"{GREEN}        MENU OPTIONS{RESET}")
     print("=" * 40)
     
     for item in menu:
-        print(f"║ {BLUE}{item:<36}{RESET} ║")
+        print(f"║ {GREEN}{item:<36}{RESET} ║")
         time.sleep(0.05)
     
     print("=" * 40)

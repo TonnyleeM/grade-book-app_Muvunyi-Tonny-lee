@@ -3,3 +3,4 @@ muvunyilee@alustudent.com,bible,3.5
 muvunyitonny@gmail.com,bible,1.8
 kenzo@gmail.com,SQLDatabases,2.6
 kenzo@gmail.com,bible,3.8
+kenzo@gmail.com,foundations,3.2
