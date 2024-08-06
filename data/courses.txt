@@ -1,4 +1,4 @@
 foundations,1st,5
-Foundation,1st,3
+bible,1st,3
 introduction to python Programming,Second,5
 SQLDatabases,Third,50

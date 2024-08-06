@@ -1,5 +1,5 @@
-muvunyilee@alustudent.com,foundation,5.9
-muvunyilee@alustudent.com,Foundation,2.0
-muvunyitonny@gmail.com,Foundation,1.8
-kenzo@gmail.com,SQLDatabases,1.6
-kenzo@gmail.com,Foundation,4.8
+muvunyilee@alustudent.com,foundation,2.9
+muvunyilee@alustudent.com,bible,3.5
+muvunyitonny@gmail.com,bible,1.8
+kenzo@gmail.com,SQLDatabases,2.6
+kenzo@gmail.com,bible,3.8
