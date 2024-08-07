@@ -225,7 +225,7 @@ def main():
         elif choice == '4':
             ranking = grade_book.calculate_ranking()
             number = 1
-            print(f"\n----------{BLUE}Ranking{RESET}-------------\n")
+            print(f"\n----------{GREEN}Ranking{RESET}-------------\n")
             for names, GPA in ranking:
                 print(f"{number}.{names}: {GPA:.2f}\n")
                 number += 1
@@ -312,13 +312,13 @@ def main():
             transcript = grade_book.generate_transcript(student_email)
             if transcript:
                 print("\n")
-                print(f"{BLUE}                 STUDENT TRANSCRIPT{RESET}")
+                print(f"{GREEN}                 STUDENT TRANSCRIPT{RESET}")
                 print("=" * 60 + "\n")
-                print(f"{BLUE}Student's Names{RESET}: {transcript['names']}")
-                print(f"{BLUE}ID{RESET}: {id}")
-                print(f"{BLUE}Email{RESET}: {transcript['email']}")
+                print(f"{GREEN}Student's Names{RESET}: {transcript['names']}")
+                print(f"{GREEN}ID{RESET}: {id}")
+                print(f"{GREEN}Email{RESET}: {transcript['email']}")
                 print("\n" + "=" * 60)
-                print(f"{BLUE}Courses and Grades{RESET}")
+                print(f"{GREEN}Courses and Grades{RESET}")
                 print("=" * 60 + "\n")
                 
                 max_name_length = max(len(course) for course, _ in transcript['courses'])
@@ -334,7 +334,7 @@ def main():
                     print(f"{course:<{max_name_length}} | {grade_str:<{max_grade_length}}")
                     print("-" * (max_name_length + max_grade_length + 3))
                 
-                print(f"\n{BLUE}GPA{RESET}: {transcript['GPA']:.2f}")
+                print(f"\n{GREEN}GPA{RESET}: {transcript['GPA']:.2f}")
                 print("=" * 60 + "\n")
             else:
                 print("Student not found!")

@@ -3,3 +3,4 @@ james@alustudent.com,James Nkuranga,ALU60052020
 muvunyitonny@gmail.com,Muvunyi TonnyLee,ST00002016
 kenzo@gmail.com,Kenzo manzi,ST00012024
 lee@gmail.com,Leetonny,ST20002002
+good@gmail.com,good luck,ST20052024
